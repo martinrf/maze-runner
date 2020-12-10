@@ -1,12 +1,16 @@
 ## Maze Runner
-How to use it
+How to use it.
  
 ```
 yarn install
 node maze.js your-maze.maze
 ```
 
-Maze file describe the maze and its entrance using the first row as start row, start column.
+Maze file describe the maze and its entrance using the first row as start row, 
+start column of the maze. 
+
+eg:
+
 ```
 0,1
 A,B,A,A
