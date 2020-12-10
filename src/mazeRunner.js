@@ -62,9 +62,6 @@ class MazeRunner{
         const destination = this.matrix.get([i, j]);
         const solutionValues = this.route.map((e) => { if (e.value !== this.startBlock.value) return e.value; }).join('');
         let seq = `${solutionValues}${destination}`;
-        if(seq.length < 3){
-            return true;
-        }
         if (seq.length === 4){
             this.reorderSequence(seq);
         }
